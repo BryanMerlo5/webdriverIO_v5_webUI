@@ -1,0 +1,37 @@
+{
+  "name": "wdio-web-ui",
+  "version": "1.0.0",
+  "description": "webdriverIO framework based with different dependencies",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "webdriverio": "^5.16.8",
+    "@wdio/cli": "^5.16.7"
+  },
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^5.16.6",
+    "@wdio/local-runner": "^5.16.8",
+    "@wdio/spec-reporter": "^5.16.5",
+    "chromedriver": "^78.0.1",
+    "eslint": "^6.7.0",
+    "wdio-chromedriver-service": "^5.0.2"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryanM3rlos/wdio-web-ui.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "B.A.Merlos.Dominguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryanM3rlos/wdio-web-ui/issues"
+  },
+  "homepage": "https://github.com/BryanM3rlos/wdio-web-ui#readme"
+}
