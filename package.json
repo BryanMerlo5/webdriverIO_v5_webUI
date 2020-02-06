@@ -7,8 +7,8 @@
     "test": "test"
   },
   "dependencies": {
-    "webdriverio": "^5.16.8",
-    "@wdio/cli": "^5.16.7"
+    "@wdio/cli": "^5.16.7",
+    "chai": "^4.2.0"
   },
   "devDependencies": {
     "@wdio/cucumber-framework": "^5.16.6",
@@ -16,7 +16,8 @@
     "@wdio/spec-reporter": "^5.16.5",
     "chromedriver": "^80.0.0",
     "eslint": "^6.7.0",
-    "wdio-chromedriver-service": "^5.0.2"
+    "wdio-chromedriver-service": "^5.0.2",
+    "webdriverio": "^5.18.6"
   },
   "scripts": {
     "test": "test"

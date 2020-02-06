@@ -7,7 +7,7 @@ import checkIfElementExists from '../lib/checkIfElementExists';
  * @param  {String}   value   The value to set the selector to
  * @param  {String}   selector Element selector
  */
-export default (method, value, selector) => {
+setInputField = (method, value, selector) => {
     /**
      * The command to perform on the browser object (addValue or setValue)
      * @type {String}
@@ -24,3 +24,5 @@ export default (method, value, selector) => {
 
     $(selector)[command](checkValue);
 };
+
+module.exports = setInputField;
