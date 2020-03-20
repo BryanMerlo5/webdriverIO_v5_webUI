@@ -1,12 +1,20 @@
 module.exports = {
     btn: {
-        search: '#Tg7LZd'
+        searchFlights: '.jb-button-secondary'
     },
     txt: {
-        info: '//*[@id="tsf"]/div[2]/div[1]/div[1]/div/div[2]/input'
+        welcome: '#first-focus',
+        topMenu: '.w-85-m',
+        vacationsTab: '#jb-tab-id-1 > .flex > span',
+        hotelsTab: '#jb-tab-id-2 > .flex > span',
+        carsTab: '#jb-tab-id-3 > .flex > span',
+        flightsTab: '#jb-tab-id-3 > .flex > span'
     },
     img: {
         doodle: '//*[@id="hplogo"]/div[2]'
+    },
+    chk:{
+        useTruBluePoints: '.ml-auto .checkbox-custom'
     },
     tbl:{
 
