@@ -1,7 +1,7 @@
 'use strict';
 
 const { Given } = require('cucumber');
-const elem = require('../maps/mapping_One');
+const elem = require('../maps/home.page.map');
 const getObject = require('../../helpers/pupito');
 
 var mapObject = function (ui, elem) {
