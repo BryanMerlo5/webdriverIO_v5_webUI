@@ -5,26 +5,26 @@
   "main": "index.js",
   "scripts": {
     "selenium-postinstall": "node_modules/.bin/selenium-standalone install",
-		"selenium-start": "node_modules/.bin/selenium-standalone start",
-		"test": "node_modules/.bin/wdio ./test/config/suite.cucumber.conf.js",
-		"test-mobile": "node node_modules/.bin/wdio ./test/config/suite.mocha.conf.js",
-		"allure-report": "node_modules/.bin/allure generate --clean ./test/reports/allure-results && allure open",
-		"junit-report": "node_modules/.bin/junit-viewer --results=./test/reports/junit-results --save=junit-results.html && open junit-results.html"
+    "selenium-start": "node_modules/.bin/selenium-standalone start",
+    "test": "node_modules/.bin/wdio ./test/config/suite.cucumber.conf.js",
+    "test-mobile": "node node_modules/.bin/wdio ./test/config/suite.mocha.conf.js",
+    "allure-report": "node_modules/.bin/allure generate --clean ./test/reports/allure-results && allure open",
+    "junit-report": "node_modules/.bin/junit-viewer --results=./test/reports/junit-results --save=junit-results.html && open junit-results.html"
   },
   "keywords": [
     "selenium",
-		"mobile",
-		"web",
-		"testing",
-		"webdriverjs",
-		"webdriver",
-		"automation"
+    "mobile",
+    "web",
+    "testing",
+    "webdriverjs",
+    "webdriver",
+    "automation"
   ],
   "author": "Bryan Merlos",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/BryanM3rlos/webdriverIO_web_ui_v5"
-	},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BryanM3rlos/webdriverIO_web_ui_v5"
+  },
   "license": "ISC",
   "dependencies": {
     "grunt-cli": "^1.3.2"
