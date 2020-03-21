@@ -21,22 +21,5 @@ module.exports = {
     },
     lnk: {
         firstResult: '//*[@id="rso"]/div[1]/div/div/link'
-    },
-    getCall: function() {     
-    },
-    /**
-     * Getting the Response Timing
-     */
-    resTime: function() {
-    },
-    /**
-     * Getting the Status Code
-     */
-    staCode: function() {
-    },
-    /**
-     * Getting the Content of the API
-     */
-    contApi: function() {
     }
   };
