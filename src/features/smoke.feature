@@ -1,4 +1,4 @@
-Feature: Update xBand status to Replacement
+Feature: Example by cucumber
 
-  Scenario: Update xBand status to Replacement
+  Scenario: Example by cucumber
     Given I open a website

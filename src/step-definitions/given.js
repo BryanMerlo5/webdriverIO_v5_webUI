@@ -1,6 +1,6 @@
 'use strict';
 const { Given } = require('cucumber');
-const elem = require('../maps/home.page.map');
+const elem = require('../maps/home.page.map.js');
 
 Given(/^I open a website$/, () => {
   const seconds = 5;
