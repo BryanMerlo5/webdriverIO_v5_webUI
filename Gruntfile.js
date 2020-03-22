@@ -4,7 +4,7 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         webdriver: {
             test: {
-                configFile: './test/config/suite.cucumber.conf.js'
+                configFile: 'suite.cucumber.conf.js'
             },
             test-mocha: {
                 configFile: './test/config/suite.mocha.conf.js'

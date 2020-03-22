@@ -3,6 +3,7 @@ module.exports = {
         searchFlights: '.jb-button-secondary'
     },
     txt: {
+        info: ".gLFyf",
         welcome: '#first-focus',
         topMenu: '.w-85-m',
         vacationsTab: '#jb-tab-id-1 > .flex > span',
