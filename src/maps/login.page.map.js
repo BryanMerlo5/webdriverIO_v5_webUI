@@ -1,22 +1,14 @@
 module.exports = {
     btn: {
-        signIn: '.bg-royal-blue',
+        signIn: '//input[@aria-labelledby]',
         memberYet: '.slate-gray:nth-child(1)'
     },
     lbl: {
-        signIn: '.core-blue',
-        email: '#emailLabel',
-        password: '#emailLabel'
+        signIn: 'html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div/div/span'
     },
     txt: {
-        email: '#login-email_u2hn6faxo',
-        password: '#login-email_u2hn6faxo'
-    },
-    img: {
-    },
-    chk:{
-    },
-    tbl:{
+        email: '#emailLabel',
+        password: '#ap_password'
     },
     lnk: {
         forgotPassword: '.mt2',
