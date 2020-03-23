@@ -5,7 +5,8 @@ const signIn = require('../maps/login.page.map');
 const expect = require('chai').expect;
 const data = require('../../test/data/Logins');
 
-When(/^I enter the credentials to sign-in$/, function (text) {
+When(/^I enter the credentials to sign-in$/, () => {
+    browser.pause(5000);
     browser.$(signIn.txt.email).setValue(data.user.name);
     browser.$(signIn.btn.signIn).click();
     browser.pause(5000);
