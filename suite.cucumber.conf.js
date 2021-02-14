@@ -20,7 +20,7 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './src/features/book.flight.feature'
+        './src/features/*.feature'
     ],
     // Patterns to exclude.
     exclude: [

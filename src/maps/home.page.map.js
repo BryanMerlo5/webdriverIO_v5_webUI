@@ -15,6 +15,9 @@ module.exports = {
             checkIn: '//a[@_ngcontent-jb-app-c4 and @href="https://checkin.jetblue.com"]',
             travelAlerts: '//a[@_ngcontent-jb-app-c4 and @routerlink="/travel-alerts"]',
             language: '//a[@_ngcontent-jb-app-c4 and @mporgnav]'
+        },
+        btn: {
+            login_test: '//button[contains(text(), "Login")]'
         }
     },
     footerSection: {
